@@ -127,7 +127,7 @@ void Cube_test(){
 	//Potential.print_VTK();
 	Potential.print_VTK_Struct_Points(c_x, c_y, c_z, off_x, off_y, off_z); // Structures Points
 	//Potential.print_VTK_Struc_Grid(c_x, c_y, c_z, off_x, off_y, off_z); // Structured Grid
-	Potential.print_VTK_Rect_Grid(c_x, c_y, c_z, off_x, off_y, off_z, step); // Rectilinear Grid
+	//Potential.print_VTK_Rect_Grid(c_x, c_y, c_z, off_x, off_y, off_z, step); // Rectilinear Grid
 
 	Potential.Sort_Res();
 	Potential.print_res();
