@@ -97,7 +97,7 @@ void N_Body_pot::print_res(){
 	}
 
 	FILE *f;
-	f = fopen("results.dat", "w");
+	f = fopen("results\\results.dat", "w");
 
 	// First Line
 	fprintf(f, "#	X	Y1	Y2\n");
